@@ -13,12 +13,12 @@ export default function Footer() {
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.3em] text-white/30 mb-8 font-bold">Contato</h4>
             <ul className="space-y-4 text-sm font-light">
-              <li><a href="mailto:hello@natura.com" className="hover:text-white transition-colors">hello@natura.com</a></li>
+              <li><a href="mailto:contato@gabrielabetto.com" className="hover:text-white transition-colors">contato@gabrielabetto.com</a></li>
               <li><a href="https://wa.me/5519991720473" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <MessageCircle className="w-4 h-4 text-emerald-500" />
                 +55 (19) 99172-0473
               </a></li>
-              <li className="text-white/40 pt-4">Baseado em Zurique, Suíça</li>
+              <li className="text-white/40 pt-4">Baseada em Zurique, Suíça</li>
             </ul>
           </div>
 
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-white/5 gap-6">
-          <p className="text-[10px] uppercase tracking-[0.2em] text-white/20">© 2024 Natura Photography Portfolio</p>
+          <p className="text-[10px] uppercase tracking-[0.2em] text-white/20">© 2024 Gabriela Betto Photography Portfolio</p>
           <div className="flex gap-8 text-[10px] uppercase tracking-[0.2em] text-white/20">
             <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
             <a href="#" className="hover:text-white transition-colors">Termos de Serviço</a>

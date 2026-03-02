@@ -22,10 +22,10 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
         >
           <span className="inline-block text-xs uppercase tracking-[0.4em] mb-6 text-white/70 font-medium">
-            Fotógrafo de Natureza
+            Fotógrafa de Natureza
           </span>
           <h1 className="font-serif text-5xl md:text-8xl lg:text-9xl mb-8 leading-[0.9] tracking-tighter text-balance">
-            Capturando a <span className="italic">Alma</span> do Selvagem
+            Para olhos atentos <span className="italic">tudo é poesia</span>
           </h1>
           <p className="text-lg md:text-xl text-white/60 font-light max-w-2xl mx-auto mb-12 text-balance leading-relaxed">
             Uma jornada por paisagens intocadas e as histórias silenciosas contadas pela terra.

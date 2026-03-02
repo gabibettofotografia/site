@@ -16,7 +16,7 @@ export default function About() {
             <div className="relative aspect-[3/4] max-w-md mx-auto lg:mx-0 rounded-sm overflow-hidden shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1552168324-d612d77725e3?auto=format&fit=crop&q=80&w=800" 
-                alt="Fotógrafo" 
+                alt="Fotógrafa" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
