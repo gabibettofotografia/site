@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Camera } from "lucide-react";
+import { Camera, MessageCircle } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -17,14 +17,25 @@ export default function Navbar() {
       </div>
 
       <div className="hidden md:flex items-center gap-12 text-xs uppercase tracking-[0.2em] font-medium text-white/60">
-        <a href="#gallery" className="hover:text-white transition-colors">Portfolio</a>
-        <a href="#about" className="hover:text-white transition-colors">About</a>
-        <a href="#contact" className="hover:text-white transition-colors">Contact</a>
+        <a href="#gallery" className="hover:text-white transition-colors">Portfólio</a>
+        <a href="#about" className="hover:text-white transition-colors">Sobre</a>
+        <a href="#contact" className="hover:text-white transition-colors">Contato</a>
       </div>
 
-      <button className="px-6 py-2 rounded-full border border-white/20 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
-        Book Session
-      </button>
+      <div className="flex items-center gap-4">
+        <a 
+          href="https://wa.me/5519991720473" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-600/20 border border-emerald-500/30 text-[10px] uppercase tracking-widest hover:bg-emerald-600 hover:text-white transition-all duration-300"
+        >
+          <MessageCircle className="w-3 h-3" />
+          WhatsApp
+        </a>
+        <button className="px-6 py-2 rounded-full border border-white/20 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300">
+          Agendar Sessão
+        </button>
+      </div>
     </motion.nav>
   );
 }

@@ -4,38 +4,38 @@ const photos = [
   {
     id: 1,
     url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=800",
-    title: "Forest Silence",
-    category: "Forest"
+    title: "Silêncio da Floresta",
+    category: "Floresta"
   },
   {
     id: 2,
     url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=800",
-    title: "Mountain Peaks",
-    category: "Mountains"
+    title: "Picos das Montanhas",
+    category: "Montanhas"
   },
   {
     id: 3,
     url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=800",
-    title: "Crystal Lake",
-    category: "Water"
+    title: "Lago de Cristal",
+    category: "Água"
   },
   {
     id: 4,
     url: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=800",
-    title: "Golden Valley",
-    category: "Plains"
+    title: "Vale Dourado",
+    category: "Planícies"
   },
   {
     id: 5,
     url: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=800",
-    title: "Lone Tree",
-    category: "Minimal"
+    title: "Árvore Solitária",
+    category: "Minimalista"
   },
   {
     id: 6,
     url: "https://images.unsplash.com/photo-1433086566608-e9373f6672da?auto=format&fit=crop&q=80&w=800",
-    title: "Misty Falls",
-    category: "Water"
+    title: "Quedas de Névoa",
+    category: "Água"
   }
 ];
 
@@ -45,16 +45,16 @@ export default function Gallery() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="max-w-xl">
-            <h2 className="font-serif text-4xl md:text-6xl mb-6">Selected Works</h2>
+            <h2 className="font-serif text-4xl md:text-6xl mb-6">Trabalhos Selecionados</h2>
             <p className="text-white/50 font-light leading-relaxed">
-              A curated collection of moments where time stood still. Each photograph is a testament to the raw beauty of our planet.
+              Uma coleção curada de momentos onde o tempo parou. Cada fotografia é um testemunho da beleza bruta do nosso planeta.
             </p>
           </div>
           <div className="flex gap-6 text-[10px] uppercase tracking-[0.2em] font-semibold text-white/40">
-            <span className="text-white border-b border-white pb-1 cursor-pointer">All</span>
-            <span className="hover:text-white transition-colors cursor-pointer">Forest</span>
-            <span className="hover:text-white transition-colors cursor-pointer">Mountains</span>
-            <span className="hover:text-white transition-colors cursor-pointer">Water</span>
+            <span className="text-white border-b border-white pb-1 cursor-pointer">Todos</span>
+            <span className="hover:text-white transition-colors cursor-pointer">Floresta</span>
+            <span className="hover:text-white transition-colors cursor-pointer">Montanhas</span>
+            <span className="hover:text-white transition-colors cursor-pointer">Água</span>
           </div>
         </div>
 
